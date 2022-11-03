@@ -14,7 +14,7 @@ console.log(listaMail);
     // solo per comondità. Usare listaSpesa[i] o elementoLista è la stessa cosa
 
     if ( userMail === "andreacognome@gmail.com" ) {
-    alert( "Congratulazioni " + userMail + ", puoi accedere al sito!" );
+        alert( "Congratulazioni " + userMail + ", puoi accedere al sito!" );
 }
     else if ( userMail === "carlocognome@gmail.com" ) {
         alert( "Congratulazioni " + userMail + ", puoi accedere al sito!" );
