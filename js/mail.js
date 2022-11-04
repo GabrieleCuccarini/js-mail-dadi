@@ -7,24 +7,14 @@ console.log(listaMail);
 listaMail.push ("giacomocognome@gmail.com" , "marcocognome@gmail.com")
 console.log(listaMail);
 
-    if ( userMail === "andreacognome@gmail.com" ) {
-        alert( "Congratulazioni " + userMail + ", puoi accedere al sito!" );
-}
-    else if ( userMail === "carlocognome@gmail.com" ) {
-        alert( "Congratulazioni " + userMail + ", puoi accedere al sito!" );
-}
-    else if ( userMail === "dantecognome@gmail.com" ) {
-        alert( "Congratulazioni " + userMail + ", puoi accedere al sito!" );
-}    
-    else if ( userMail === "federicocognome@gmail.com" ) {
-        alert( "Congratulazioni " + userMail + ", puoi accedere al sito!" );
-}
-    else if ( userMail === "giacomocognome@gmail.com" ) {
-        alert( "Congratulazioni " + userMail + ", puoi accedere al sito!" );
-    }
-    else if ( userMail === "marcocognome@gmail.com" ) {
-        alert( "Congratulazioni " + userMail + ", puoi accedere al sito!" );
+for (let i = 0; i <= 5; i++) {
+
+    if (userMail === listaMail[i]) {
+        alert( "Congratulazioni " + userMail + ", puoi accedere al sito!" )
     }
     else {
         alert ("La tua mail non è valida o non è autorizzata ad accedere al sito!")
     }
+}
+
+// ("andreacognome@gmail.com") || ("carlocognome@gmail.com") || ("dantecognome@gmail.com") || ("federicocognome@gmail.com") || ("giacomocognome@gmail.com") || ("marcocognome@gmail.com"))
