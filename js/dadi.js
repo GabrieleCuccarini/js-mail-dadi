@@ -5,10 +5,8 @@ console.log(dadoUtente, dadoIa);
 
     if (dadoUtente === dadoIa) {
         alert ("PAREGGIO: " + dadoUtente + " a " + dadoIa)
-    }
-    if (dadoUtente > dadoIa) {
+    } else if (dadoUtente > dadoIa) {
         alert ("L'utente vince " + dadoUtente + " a " + dadoIa)
-    }
-    if (dadoUtente < dadoIa) {
+    } else {
         alert ("L'IA vince " + dadoIa + " a " + dadoUtente)
     }

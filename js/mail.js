@@ -7,7 +7,7 @@ console.log(listaMail);
 listaMail.push ("giacomocognome@gmail.com" , "marcocognome@gmail.com")
 console.log(listaMail);
 
-for (let i = 0; i <= 5; i++) {
+for (let i = 0; i <= listaMail.length; i++) {
 
     if (userMail === listaMail[i]) {
         alert( "Congratulazioni " + userMail + ", puoi accedere al sito!" )
